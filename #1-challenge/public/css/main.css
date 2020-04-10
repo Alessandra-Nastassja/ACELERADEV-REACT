@@ -1,0 +1,350 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER */
+
+/* ------------------------------------------------------------------------ */
+
+/* BANNER */
+
+div.banner {
+	position: relative;
+}
+
+div.img-banner {
+	background-attachment: fixed;
+	background-image: url(../img/capa-madmax2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	height: 53rem;
+	justify-content: space-between;
+	padding: 20px;
+	width: 100%;
+}
+
+div.img-banner:after {
+	background: linear-gradient( 0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 212, 255, 0) 75%);
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+div.content-banner {
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+}
+
+div.content-banner h1 {
+	font-size: 7em;
+	margin: 0px;
+	line-height: 1.2em;
+	text-transform: uppercase;
+}
+
+div.content-banner nav ul {
+	display: flex;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	padding: 0;
+}
+
+div.content-banner nav ul li {
+	list-style: none;
+	margin-right: 15px;
+}
+
+div.content-banner nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+div.content-banner nav ul li a:hover {
+	color: #e4bb23;
+}
+
+div.content-banner a#link-banner {
+	background-color: #e4bb23;
+	padding: 25px 50px;
+	color: #000;
+	font-size: 1.5em;
+	text-decoration: none;
+	border-radius: 40px;
+	position: relative;
+	transition: all 0.2s ease-in-out;
+	width: 19%;
+	margin: 30px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+div.content-banner a#link-banner:hover {
+	background-color: #bc9a1d;
+}
+
+div.content-banner a#link-banner i {
+	font-size: 1.5em;
+}
+
+div.content-banner p {
+	font-size: 1.5em;
+	line-height: 0px;
+}
+
+div.content-banner p#date-banner {
+	color: #e4bb23;
+}
+
+/* MENU */
+
+nav.menu {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+}
+
+nav.menu ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 2;
+}
+
+nav.menu ul li {
+	list-style: none;
+}
+
+nav.menu ul li.usuario img {
+	height: 75px;
+	border-radius: 50px;
+	margin-right: 15px;
+}
+
+nav.menu ul li.usuario a {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+nav.menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in-out;
+}
+
+nav.menu ul li a:hover {
+	color: #e4bb23;
+}
+
+/* SECTION */
+
+/* -------------------------------------------------------- */
+
+/* SUBMENU */
+
+section {
+	background-color: #f2f2f2;
+}
+
+div nav.submenu {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 20px 0px 30px 0px;
+}
+
+div nav.submenu ul {
+	display: flex;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+div nav.submenu ul li {
+	list-style: none;
+	margin-right: 50px;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 25px 0px;
+}
+
+div nav.submenu ul li:hover {
+	box-shadow: inset 0 -1px 0 #e4bb23;
+}
+
+div nav.submenu ul li a {
+	text-decoration: none;
+	color: #e4bb23;
+}
+
+/* CARD */
+
+div article {
+	display: flex;
+	justify-content: center;
+}
+
+div article .card {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	width: 19%;
+	margin-bottom: 30px;
+	margin-right: 25px;
+}
+
+div article .card .info-card {
+	visibility: hidden;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	left: 0;
+	opacity: 0;
+	padding: 80px 20px;
+	top: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+div article .card .info-card h3 {
+	color: #e4bb23;
+	text-transform: uppercase;
+	font-size: 2.2em;
+}
+
+div article .card .info-card a {
+	color: #fff;
+	font-size: 5em;
+	transition: all 0.2s ease-in-out;
+}
+
+div article .card .info-card a:hover {
+	color: #e4bb23;
+}
+
+div article .card:hover .info-card {
+	opacity: 1;
+	visibility: visible;
+}
+
+div article .card figure {
+	margin: 0;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+div article .card figure img {
+	width: 100%;
+	height: auto;
+}
+
+div article .card .content-card {
+	padding: 0px 15px 15px;
+}
+
+div article .card .content-card h2 {
+	text-transform: uppercase;
+}
+
+div article .card .content-card a {
+	font-size: 1.3em;
+	color: #e4bb23;
+	text-decoration: none;
+}
+
+div article .card .content-card a:hover {
+	text-decoration: underline;
+}
+
+div article .card .content-card div {
+	display: flex;
+	justify-content: space-between;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+div article .card .content-card div i {
+	cursor: pointer;
+	color: #ccc;
+}
+
+div article .card .content-card div i:hover {
+	color: #e74c3c;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #fff;
+	color: #bababa;
+	padding: 20px 0;
+	text-align: center;
+	width: 100%;
+}
+
+footer .content-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 175px;
+}
+
+footer .content-footer nav ul {
+	display: flex;
+}
+
+footer .content-footer nav ul li {
+	list-style: none;
+	margin: 0 25px;
+}
+
+footer .content-footer nav ul li a {
+	text-decoration: none;
+	color: #bababa;
+	font-size: 2.5em;
+	transition: all 0.2s ease-in-out;
+}
+
+footer .content-footer nav ul li#icon-twitter a:hover {
+	color: #55acee;
+}
+
+footer .content-footer nav ul li#icon-facebook a:hover {
+	color: #3b5998;
+}
+
+footer .content-footer nav ul li#icon-instagram a:hover {
+	color: #e95950;
+}
