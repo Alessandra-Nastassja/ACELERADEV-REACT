@@ -1,7 +1,7 @@
 <h1 align="center">ACELERADEV-REACT</h1>
 <p align="center">Desafios proposto em cada módulo do Acerela Dev React pela @codenation.</p>
 
-## Desafios
+### Desafios: 🚀
 
 **Desafio 1**: IMDB Codenation - (10/04) :heavy_check_mark:
 
