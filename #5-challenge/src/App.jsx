@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 // Importação dos componentes
 import Topbar from './components/Topbar';
@@ -7,61 +7,41 @@ import Contacts from './components/Contacts';
 
 import './App.scss';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
+const App = () => {
+  const [contacts, setContacts] = useState([]);
+  const [search, setSearch] = useState([]);
 
-    this.state = {
-      contacts: [],
-      search: []
-    }
-  }
+  useEffect(() => {
 
-  // Fetch API
-  async componentDidMount() {
-    await fetch(`https://5e82ac6c78337f00160ae496.mockapi.io/api/v1/contacts`)
-      .then(res => res.json())
-      .then(data => {
-        this.setState({
-          contacts: data
+    const fetchApi = () => {
+      fetch(`https://5e82ac6c78337f00160ae496.mockapi.io/api/v1/contacts`)
+        .then(res => res.json())
+        .then(data => {
+          setContacts(data);
+          setSearch(data);
         })
-      })
-      .catch(err => console.log(err))
-  }
+        .catch(err => console.log(err))
+    }
 
-  // Função de pesquisar
-  handleSearch = (name) => {
-    const { contacts } = this.state;
+    // Fetch API
+    fetchApi();
+  }, []);
 
-    const filteredContacts = contacts.filter((contact) => {
-      return contact.name.toLowerCase() === name.toLowerCase();
-    })
-    this.setState({
-      search: filteredContacts,
-    })
-  }
-  
-  
-  render() {
-    let { contacts, search } = this.state;
+  return (
+    <>
+      {/* Topbar */}
+      <Topbar />
 
-    return (
-      <React.Fragment>
-        {/* Topbar */}
-        <Topbar />
+      {/* Filters */}
+      <Filters
+        contacts={contacts}
+        setSearch={setSearch} />
 
-        {/* Filters */}
-        <Filters
-          search={search}
-          onSearch={this.handleSearch} />
-
-        {/* Contacts */}
-        <Contacts 
-          contacts={contacts} />
-
-      </React.Fragment>
-    )
-  }
+      {/* Contacts */}
+      <Contacts
+        contacts={contacts} />
+    </>
+  )
 }
 
 export default App;
