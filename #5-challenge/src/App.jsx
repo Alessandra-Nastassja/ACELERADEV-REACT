@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
 // Importação dos componentes
-import Topbar from './components/Topbar';
-import Filters from './components/Filters';
-import Contacts from './components/Contacts';
+import Topbar from '../utils/Topbar';
+import Filters from './components/filters/Filters';
+import Contacts from './components/contacts/Contacts';
 
 import './App.scss';
 
