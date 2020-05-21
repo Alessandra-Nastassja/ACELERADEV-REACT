@@ -20,9 +20,11 @@ const Contacts = ({ contacts }) => {
 							<span className="contact__data">Departamento</span>
 						</article>
 						{
-							contacts && contacts.map((contact) => (
-								<Contact {...contact} key={contact.id} />
-							))
+							contacts.length !== 0 ?
+								contacts && contacts.map((contact) => (
+									<Contact {...contact} key={contact.id} />
+								)) :
+								<p style={{ textAlign: "center" }}>Nenhum contato por aqui! <span role="img" aria-label="">😉</span></p>
 						}
 					</section>
 				</div>

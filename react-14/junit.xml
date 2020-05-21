@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="1" time="2.246">
-  <testsuite name="Contacts APP" errors="0" failures="1" skipped="0" timestamp="2020-05-21T02:42:20" time="1.576" tests="5">
-    <testcase classname="Contacts APP Should render APP" name="Contacts APP Should render APP" time="0.119">
+<testsuites name="jest tests" tests="5" failures="1" time="0.995">
+  <testsuite name="Contacts APP" errors="0" failures="1" skipped="0" timestamp="2020-05-21T03:13:35" time="0.651" tests="5">
+    <testcase classname="Contacts APP Should render APP" name="Contacts APP Should render APP" time="0.048">
     </testcase>
-    <testcase classname="Contacts APP Should render Contact component" name="Contacts APP Should render Contact component" time="0.015">
+    <testcase classname="Contacts APP Should render Contact component" name="Contacts APP Should render Contact component" time="0.012">
       <failure>Error: expect(element).toHaveTextContent()
 
 Expected element to have text content:
@@ -22,7 +22,7 @@ Received:
     </testcase>
     <testcase classname="Contacts APP Should render Filters component" name="Contacts APP Should render Filters component" time="0.007">
     </testcase>
-    <testcase classname="Contacts APP Should render Topbar component" name="Contacts APP Should render Topbar component" time="0.005">
+    <testcase classname="Contacts APP Should render Topbar component" name="Contacts APP Should render Topbar component" time="0.004">
     </testcase>
   </testsuite>
 </testsuites>
