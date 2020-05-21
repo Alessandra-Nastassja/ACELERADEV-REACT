@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react';
 
 // Importação dos componentes
-import Topbar from '../utils/Topbar';
-import Filters from './components/filters/Filters';
-import Contacts from './components/contacts/Contacts';
+import Topbar from './components/Topbar';
+import Filters from './components/Filters';
+import Contacts from './components/Contacts';
 
 import './App.scss';
 
 const App = () => {
   const [contacts, setContacts] = useState([]);
-  const [search, setSearch] = useState([]);
+  const [search, setSearch] = useState([]); 
 
   useEffect(() => {
 
@@ -27,8 +27,8 @@ const App = () => {
     fetchApi();
   }, []);
 
-  return (
-    <>
+  return (  
+    <div className="app" data-testid="app">
       {/* Topbar */}
       <Topbar />
 
@@ -39,8 +39,8 @@ const App = () => {
 
       {/* Contacts */}
       <Contacts
-        contacts={contacts} />
-    </>
+        contacts={search} />
+    </div>
   )
 }
 
