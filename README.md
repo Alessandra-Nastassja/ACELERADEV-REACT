@@ -11,9 +11,11 @@
 
 **Desafio 4**: Carrinho de compras usando NodeJS  - (03/05) :heavy_check_mark:
 
-**Desafio 5**: SPA: App de Contatos - (07/05) :heavy_check_mark:
+**Desafio 5**: SPA: App de Contatos [parte 1] - (07/05) :heavy_check_mark:
 
-**Desafio 6**: SPA: App de Contatos - (17/05) :warning:
+**Desafio 6**: SPA: App de Contatos [parte 2] - (17/05) :heavy_check_mark:
+
+**Desafio 7**: Instadev: React SPA [parte 1]- (23/05) :warning:
 
 *****
 
