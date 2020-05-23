@@ -5,6 +5,8 @@ import Topbar from './components/Topbar';
 import Filters from './components/Filters';
 import Contacts from './components/Contacts';
 
+import mockContactsList from "./__tests__/mock/contacts.json";
+
 import './App.scss';
 
 const App = () => {
@@ -25,6 +27,7 @@ const App = () => {
 
     // Fetch API
     fetchApi();
+    
   }, []);
 
   return (  

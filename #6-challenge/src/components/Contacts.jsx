@@ -21,7 +21,7 @@ const Contacts = ({ contacts }) => {
 						</article>
 						{
 							contacts && contacts.map((contact) => (
-								<Contact {...contact} key={contact.id} />
+								<Contact data={contact} key={contact.id} />
 							))
 						}
 					</section>
