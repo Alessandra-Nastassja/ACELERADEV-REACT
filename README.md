@@ -19,6 +19,8 @@
 
 **Desafio 8**: Instadev: React SPA [parte 2]- (01/06) :warning:
 
+**Desafio 9**: React / Redux Spotify Pocket SPA- (01/06) :warning:
+
 *****
 
 ### *Tecnologias usadas:* 📌 
