@@ -15,7 +15,9 @@
 
 **Desafio 6**: SPA: App de Contatos [parte 2] - (17/05) :heavy_check_mark:
 
-**Desafio 7**: Instadev: React SPA [parte 1]- (23/05) :warning:
+**Desafio 7**: Instadev: React SPA [parte 1]- (23/05) :heavy_check_mark:
+
+**Desafio 8**: Instadev: React SPA [parte 2]- (01/06) :warning:
 
 *****
 
