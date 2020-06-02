@@ -1,3 +1,5 @@
+![](https://media-exp1.licdn.com/dms/image/C4E1BAQEP1qSz0r5URg/company-background_10000/0?e=1591149600&v=beta&t=G1Aq3w3hdsvi1afu0M9j9OPSmVb6e5we1B2IsIQP4Os)
+
 <h1 align="center">ACELERADEV-REACT</h1>
 <p align="center">Desafios proposto em cada módulo do Acerela Dev React pela @codenation.</p>
 
