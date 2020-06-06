@@ -34,7 +34,7 @@ Neste desafio, você vai praticar os seus conhecimentos em:
 > 👉 **`live-server ./[nome-da-pasta ou arquivo html]`**
 
 ## Resultado: :heavy_check_mark:
-![]()
+![](https://github.com/Alessandra-Nastassja/ACELERADEV-REACT/blob/master/%231-challenge/public/img/captured.gif)
 
 ## Dicas:
 * Utilize as tags semânticas do HTML5 onde julgar necessário;
