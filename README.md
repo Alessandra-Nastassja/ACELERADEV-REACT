@@ -21,7 +21,7 @@
 
 **Desafio 7**: Instadev: React SPA [parte 1]- (23/05) :heavy_check_mark:
 
-**Desafio 8**: Instadev: React SPA [parte 2]- (01/06) :warning:
+**Desafio 8**: Instadev: React SPA [parte 2]- (01/06) :heavy_check_mark:
 
 **Desafio 9**: React / Redux Spotify Pocket SPA- (01/06) :warning:
 
