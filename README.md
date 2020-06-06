@@ -5,6 +5,18 @@
 <h1 align="center">ACELERADEV-REACT</h1>
 <p align="center">Desafios proposto em cada módulo do Acerela Dev React pela @codenation.</p>
 
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/repo-size/Alessandra-Nastassja/ACELERADEV-REACT?color=blue">
+  <a href="https://github.com/Alessandra-Nastassja/ACELERADEV-REACT/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Alessandra-Nastassja/ACELERADEV-REACT?color=blue">
+  </a>
+  <a href="https://www.linkedin.com/in/alessandra-nastassja/">
+    <img alt="Made by Alessandra Nastassja" src="https://img.shields.io/badge/made%20by-AlessandraNastassja-blue">
+  </a>
+</p>
+
+******
+
 ### *Desafios:* 🚀
 
 * **Desafio 1**: IMDB Codenation - (10/04) :heavy_check_mark:
