@@ -243,7 +243,7 @@ Neste desafio você vai praticar os seus conhecimentos em:
 - **React**
 
 ## Resultado: :heavy_check_mark:
-
+![](https://github.com/Alessandra-Nastassja/ACELERADEV-REACT/blob/master/%238-challenge/src/assets/img/captured.gif)
 
 ## Requisitos:
 * **[Node v13.8.0](https://nodejs.org/en/)** - ou superior, instalado em seu computador.

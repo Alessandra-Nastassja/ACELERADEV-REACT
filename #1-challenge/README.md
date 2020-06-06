@@ -33,6 +33,9 @@ Neste desafio, você vai praticar os seus conhecimentos em:
 >
 > 👉 **`live-server ./[nome-da-pasta ou arquivo html]`**
 
+## Resultado: :heavy_check_mark:
+![]()
+
 ## Dicas:
 * Utilize as tags semânticas do HTML5 onde julgar necessário;
 * Você pode fazer download do [Normalize CSS]* (https://necolas.github.io/normalize.css/) e utilizá-lo no projeto para **"normalizar/resetar"** os estilos padrão dos navegadores;

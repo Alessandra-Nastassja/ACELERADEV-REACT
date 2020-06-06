@@ -47,10 +47,8 @@ Neste desafio você vai praticar os seus conhecimentos em:
 * **[Node v13.8.0](https://nodejs.org/en/)** - ou superior, instalado em seu computador.
 * **[Create React App](https://github.com/facebook/create-react-app)**
 
+## Resultado: :heavy_check_mark:
+![]()
+
 ## Screenshot de Referência
-
 ![](https://codenation-challenges.s3-us-west-1.amazonaws.com/react-14/screenshot.png)
-
-
-
-

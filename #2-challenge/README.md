@@ -31,6 +31,8 @@ Neste desafio, você vai praticar os seus conhecimentos em:
 > Após a instalação, você deverá navegar até o diretório contendo seus arquivos HTML e executar o comando:
 > **`live-server ./[nome-da-pasta ou arquivo html]`**
 
+## Resultado: :heavy_check_mark:
+![]()
 
 ## Dicas:
 * Utilize as tags semânticas do HTML5 onde julgar necessário;
