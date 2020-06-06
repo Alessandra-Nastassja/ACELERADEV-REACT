@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/27302446/83697801-4a847300-a5d6-11ea-9e8f-dbc0cc1d2568.png">
+</p>
+
 <h1 align="center">ACELERADEV-REACT</h1>
 <p align="center">Desafios proposto em cada módulo do Acerela Dev React pela @codenation.</p>
 
