@@ -48,7 +48,7 @@ Neste desafio você vai praticar os seus conhecimentos em:
 * **[Create React App](https://github.com/facebook/create-react-app)**
 
 ## Resultado: :heavy_check_mark:
-![]()
+![](https://github.com/Alessandra-Nastassja/ACELERADEV-REACT/blob/master/%236-challenge/src/assets/img/captured.gif)
 
 ## Screenshot de Referência
 ![](https://codenation-challenges.s3-us-west-1.amazonaws.com/react-14/screenshot.png)
