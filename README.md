@@ -7,27 +7,31 @@
 
 ### *Desafios:* 🚀
 
-**Desafio 1**: IMDB Codenation - (10/04) :heavy_check_mark:
+* **Desafio 1**: IMDB Codenation - (10/04) :heavy_check_mark:
 
-**Desafio 2**: Instagram Codenation  - (15/04) :heavy_check_mark:
+* **Desafio 2**: Instagram Codenation  - (15/04) :heavy_check_mark:
 
-**Desafio 3**: Fibonacci usando NodeJS  - (24/04) :heavy_check_mark:
+* **Desafio 3**: Fibonacci usando NodeJS  - (24/04) :heavy_check_mark:
 
-**Desafio 4**: Carrinho de compras usando NodeJS  - (03/05) :heavy_check_mark:
+* **Desafio 4**: Carrinho de compras usando NodeJS  - (03/05) :heavy_check_mark:
 
-**Desafio 5**: SPA: App de Contatos [parte 1] - (07/05) :heavy_check_mark:
+* **Desafio 5**: SPA: App de Contatos [parte 1] - (07/05) :heavy_check_mark:
 
-**Desafio 6**: SPA: App de Contatos [parte 2] - (17/05) :heavy_check_mark:
+* **Desafio 6**: SPA: App de Contatos [parte 2] - (17/05) :heavy_check_mark:
 
-**Desafio 7**: Instadev: React SPA [parte 1]- (23/05) :heavy_check_mark:
+* **Desafio 7**: Instadev: React SPA [parte 1]- (23/05) :heavy_check_mark:
 
-**Desafio 8**: Instadev: React SPA [parte 2]- (01/06) :heavy_check_mark:
+* **Desafio 8**: Instadev: React SPA [parte 2]- (01/06) :heavy_check_mark:
 
-**Desafio 9**: React / Redux Spotify Pocket SPA- (01/06) :warning:
+* **Desafio 9**: React / Redux Spotify Pocket SPA- (01/06) :warning:
 
 *****
+## Como rodar ? 🚀
 
-### *Tecnologias usadas:* 📌 
+Cada desafio tem a sua particularidade para rodar, basta clicar em cada pasta e ler o **readme** com as suas respectivas orientações. 
+
+*****
+### *Tecnologias usadas:* 🖥️
 
 - [HTML]();
 - [CSS]();
