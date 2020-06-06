@@ -242,6 +242,9 @@ Neste desafio você vai praticar os seus conhecimentos em:
 - **React Testing Library**
 - **React**
 
+## Resultado: :heavy_check_mark:
+
+
 ## Requisitos:
 * **[Node v13.8.0](https://nodejs.org/en/)** - ou superior, instalado em seu computador.
 * **[Create React App](https://github.com/facebook/create-react-app)**
