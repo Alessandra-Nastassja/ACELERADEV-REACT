@@ -37,3 +37,8 @@ Cada desafio tem a sua particularidade para rodar, basta clicar em cada pasta e 
 - [CSS]();
 - [Node]();
 - [React](https://pt-br.reactjs.org/docs/getting-started.html);
+
+*****
+## Resultado: :heavy_check_mark:
+
+Ah, para ver como fico os projetos que contém a parte estática, também poderá ver dentro de cada desafio. 😍
