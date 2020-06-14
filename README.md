@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/27302446/83697801-4a847300-a5d6-11ea-9e8f-dbc0cc1d2568.png">
+  <img src="https://user-images.githubusercontent.com/27302446/84605253-5d1e6800-ae72-11ea-876e-4c5e5372c7dc.png">
 </p>
 
 <h1 align="center">ACELERADEV-REACT</h1>
